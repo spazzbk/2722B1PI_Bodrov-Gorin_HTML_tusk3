@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>UniTravel</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=width-device, initial-scale=1">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/style__grid.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="header">
+    <div class="header__top">
+        <input type="checkbox" id="burger-checkbox">
+        <label class="burger" for="burger-checkbox"></label>
+        <h1 class="logo">UniTravel</h1>
+        <div class="account">
+            <img class="account__ico" src="assets/user.svg" alt="">
+            <p class="account__text">MY ACCOUNT</p>
+        </div>
+    </div><!-- /.header__top -->
+
+    <div class="section-photo__content section-photo__content--header">
+        <div class="section-photo__text">
+            <h2 class="section-photo__title">Твое путешествие по&nbspТайваню</h2>
+        </div>
+    </div>
+
+    <div class="section-photo__overlay section-photo__overlay--header"></div>
+</header>
+
+<main class="main">
+    <section class="section-info"><!-- section-culture -->
+        <div class="container">
+            <div class="section-info__content section-info__content--culture">
+                <div class="section-info__text">
+                    <h2 class="section-info__title section-info__title--culture">Погружение в <span>уникальную культуру Тайваня с UniTravel</span></h2>
+                    <p class="section-info__subtitle">С нами Вы не просто турист — Вы становитесь частью Тайваня.
+                        Откройте для себя его уникальность и создайте незабываемые воспоминания,
+                        которые останутся с вами на всю жизнь</p>
+                </div>
+
+                <aside class="section-info__vertical-slider">
+                    <div class="slider__item">
+                        <img class="slider__photo" src="assets/photo-1.jpg" alt="mounts">
+                        <button class="slider__btn"></button>
+                    </div>
+
+                    <div class="slider__item">
+                        <img class="slider__photo" src="assets/photo-2.jpg" alt="city">
+                        <button class="slider__btn"></button>
+                    </div>
+
+                    <div class="slider__item">
+                        <img class="slider__photo" src="assets/photo-3.jpg" alt="city">
+                        <button class="slider__btn"></button>
+                    </div>
+
+                    <div class="slider__item">
+                        <img class="slider__photo" src="assets/photo-4.jpg" alt="mounts">
+                        <button class="slider__btn"></button>
+                    </div>
+
+                    <div class="slider__item">
+                        <img class="slider__photo" src="assets/photo-5.jpg" alt="city">
+                        <button class="slider__btn"></button>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </section><!-- /section-culture -->
+
+    <section class="section-photo section-photo--adventure"> <!-- section-adventure -->
+        <div class="section-photo__content">
+            <div class="section-photo__text">
+                <h2 class="section-photo__title">НЕЗАБЫВАЕМОЕ ПРИКЛЮЧЕНИЕ</h2>
+                <p class="section-photo__subtitle">исследуйте завораживающие скрытые уголки Тайваня. Познакомьтесь с
+                    особенностями пейзажей и истории  </p>
+            </div>
+        </div>
+
+        <div class="section-photo__overlay section-photo__overlay--black"></div>
+    </section><!-- /section-adventure -->
+
+    <section class="section-info section-info--about"> <!-- section-about -->
+        <div class="container container--about">
+            <div class="section-info__content section-info__content--about">
+                <div class="section-info__text section-info__text--about">
+                    <h2 class="section-info__title section-info__title--about">исследуйте остров по индвидуальнной программе</h2>
+                    <p class="section-info__subtitle section-info__subtitle--about">UniTravel позволяет составить личную программу по
+                        достопремичательностям Тайваня вместе с назначенным гидом. Вы сможете выбрать маршруты,
+                        которые включают как известные туристические места, так и скрытые жемчужины</p>
+                </div>
+
+                <ul class="section-info__statistics">
+                    <li class="section-info__statistics__item">
+                        <div class="statistics__item__content">
+                            <p class="statistics__top">250+</p>
+                            <p class="statistics__about">совершенных путешествий</p>
+                        </div>
+                    </li>
+
+                    <li class="section-info__statistics__item">
+                        <div class="statistics__item__content">
+                            <p class="statistics__top">100%</p>
+                            <p class="statistics__about">гарантия</p>
+                        </div>
+                    </li>
+
+                    <li class="section-info__statistics__item">
+                        <div class="statistics__item__content">
+                            <p class="statistics__top">25</p>
+                            <p class="statistics__about">направлений</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section><!-- /.section-about -->
+
+    <section class="section-photo section-photo--pagoda"> <!-- section-pagoda -->
+        <div class="section-photo__content section-photo__content--pagoda">
+            <div class="section-photo__text">
+                <h2 class="section-photo__title">ТУР ПО<br>ВСЕМУ ТАЙВАНЮ</h2>
+                <p class="section-photo__subtitle">Тур по всему Тайваню: посетите все исторические места, насладитесь
+                    уникальной природой и познакомьтесь с богатой культурой острова.</p>
+            </div>
+
+            <button class="btn" type="button">CПЛАНИРОВАТЬ ПУТЕШЕСТВИЕ</button>
+        </div>
+
+        <div class="section-photo__overlay section-photo__overlay--black"></div>
+    </section><!-- /section--pagoda -->
+</main>
+
+<footer class="footer">
+    <div class="container container--footer">
+        <p class="copywrite">© UniTravel 2024</p>
+    </div>
+</footer>
+</body>
+</html>

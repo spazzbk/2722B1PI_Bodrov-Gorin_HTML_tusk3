@@ -1,0 +1,60 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100vw;
+}
+
+.title {
+    margin-top: 25vh;
+    margin-right: auto;
+    margin-left: auto;
+    width: 60rem;
+
+    font-size: 3.2rem;
+    font-family: Inter, sans-serif;
+    letter-spacing: 0.9rem;
+    color: black;
+}
+
+.btns {
+    margin-top: 20vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.link {
+    padding: 1.9rem 3.2rem;
+
+    font-family: Raleway, sans-serif;
+    font-size: 3.2rem;
+    font-weight: 500;
+    width: 25rem;
+    text-align: center;
+
+    border: 1px solid rgba(184, 63, 186, 0.2);
+    border-radius: 7px;
+    background: rgb(176,38,178);
+    background: linear-gradient(315deg, rgba(176,38,178,0.52) 0%, rgba(255,255,255,1) 60%);
+
+    transition: all 0.2s linear;
+}
+
+.link:hover {
+    color: #5B52F7;
+}
+
+.link:nth-child(1) {
+    margin-left: 15vw;
+}
+
+.link:nth-child(2) {
+    margin-right: 15vw;
+}
